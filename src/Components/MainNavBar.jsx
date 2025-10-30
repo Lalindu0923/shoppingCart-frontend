@@ -14,7 +14,7 @@ const MainNavBar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <ShoppingCart className="h-6 w-6 sm:h-8 sm:w-8 text-indigo-600" />
-            <span className="ml-2 text-lg sm:text-xl font-bold text-gray-900">ShoppingCart</span>
+            <span className="ml-2 text-lg sm:text-xl font-bold text-gray-900 font-sans" >ShoppingCart</span>
           </div>
 
           {/* Desktop Links + Cart */}

@@ -92,7 +92,7 @@ const handleFacebookBackendLogin = async (profile) => {
 
     console.log("Facebook user login success:", backendRes.data);
     localStorage.setItem("user", JSON.stringify(backendRes.data.user));
-    alert("Facebook login successful ✅");
+    alert("Facebook login successful .......");
     navigate("/"); // Go to homepage
 
   } catch (loginErr) {
@@ -109,16 +109,16 @@ const handleFacebookBackendLogin = async (profile) => {
 
         console.log("Facebook user registered:", registerRes.data);
         localStorage.setItem("user", JSON.stringify(registerRes.data.data));
-        alert("Facebook registration successful ✅");
+        alert("Facebook registration successful ......");
         navigate("/"); // Go to homepage
 
       } catch (registerErr) {
         console.error("Facebook registration failed:", registerErr.response?.data || registerErr.message);
-        alert("Facebook registration failed ❌");
+        alert("Facebook registration failed !!!");
       }
     } else {
       console.log("Login error:", loginErr.response?.data || loginErr.message);
-      alert("Facebook login failed ❌");
+      alert("Facebook login failed !!!!");
     }
   }
 };

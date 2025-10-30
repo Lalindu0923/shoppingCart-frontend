@@ -38,7 +38,7 @@ export default function SimpleHomeDesign() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-0">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-0 font-roboto">
       <MainNavBar />
 
       {/* --- Hero Section --- */}
@@ -47,7 +47,7 @@ export default function SimpleHomeDesign() {
           backgroundImage: 'url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")',
           backgroundSize: 'cover',}}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 font-montserrat">
             Unlimited <span className="text-indigo-600">SHOPPING</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
